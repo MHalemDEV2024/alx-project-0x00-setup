@@ -1,4 +1,4 @@
-# ALX UI System – Project 0x00
+# 🚀 alx-project-0x00-setup
 
 <p align="left">
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
@@ -7,20 +7,60 @@
   <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white" alt="ESLint"/>
 </p>
 
-A modern, responsive UI system built using **Next.js**, **TypeScript**, and **Tailwind CSS**. This project features reusable components like cards and buttons, a landing page, and theme toggling between light and dark modes.
+Initial setup for a modern web application using Next.js, TypeScript, Tailwind CSS, and ESLint — part of the **React Genesis** learning series.
 
 ---
 
-## 🚀 Features
+## 📘 Project Description
 
-- ⚡ Built with Next.js & TypeScript  
-- 🎨 Tailwind CSS for utility-first styling  
-- 🌗 Light/Dark mode toggle with Tailwind's dark class  
-- 🧱 Reusable UI Components (`Card`, `Button`, `ThemeToggle`)  
-- 📱 Responsive layout for all screen sizes  
-- ✨ Minimal, developer-friendly setup
+This project is the foundational step in the React Genesis series. It introduces you to scaffolding a Next.js project with a professional setup that follows industry best practices. Inspired by real-world applications like Airbnb, this project sets the stage for building modular, scalable, and responsive web interfaces using the latest tools in frontend development.
 
 ---
+
+## 🎯 Learning Objectives
+
+By completing this project, you will:
+
+- Understand how to scaffold a Next.js project using the CLI
+- Set up TypeScript, Tailwind CSS, and ESLint
+- Learn folder structure and organization best practices
+- Prepare for building reusable components and interactive UIs
+- Apply responsive design principles using Tailwind
+- Ensure code quality and consistency with ESLint
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Scaffold the Project
+
+```bash
+npx create-next-app@latest alx-project-0x00 --typescript
+```
+
+### 2. 🧩 Respond to Prompts
+
+| Prompt                         | Your Response |
+|-------------------------------|----------------|
+| Use ESLint?                   | ✅ Yes         |
+| Use Tailwind CSS?            | ✅ Yes         |
+| Use @/ as import alias?      | ✅ Yes         |
+| Use the /src directory?      | ❌ No          |
+| Use the App Router?          | ❌ No          |
+
+### 3. 🚀 Navigate and Run
+
+```bash
+cd alx-project-0x00
+npm run dev -- -p 3000
+```
+
+Your application should now be running at:
+
+👉 [http://localhost:3000](http://localhost:3000)
+
+---
+
 
 ## 📦 Technologies Used
 
@@ -107,18 +147,6 @@ Multiple button styles for different UI needs:
 
 ---
 
-## 🎯 Learning Objectives
-
-By completing this project, you'll:
-
-- Scaffold a modern Next.js project with TypeScript and Tailwind CSS
-- Create clean, modular UI components
-- Implement light/dark themes
-- Apply responsive design principles
-- Understand file structure and component-based architecture
-- Maintain code quality using ESLint
-
----
 
 ## 📸 Screenshots
 
