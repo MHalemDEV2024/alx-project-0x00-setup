@@ -122,4 +122,4 @@ By completing this project, you'll:
 
 ## 📸 Screenshots
 
-![Landing Page Screenshot](./Screenshots.png)
+![Landing Page Screenshot](./Screenshot.png)
