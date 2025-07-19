@@ -66,7 +66,7 @@ alx-project-0x00/
 ├── components/        # Reusable UI components
 │   ├── Button.tsx
 │   ├── Card.tsx
-│   └── ThemeToggle.tsx
+│   └── Pill.tsx
 │
 ├── pages/             # Application pages
 │   ├── index.tsx
@@ -103,16 +103,6 @@ Multiple button styles for different UI needs:
 ```tsx
 <Button title="Small Rounded" />
 <Button title="Rounded Full" />
-```
-
----
-
-### 🌙 `ThemeToggle`
-
-Toggle between light and dark modes (Tailwind `dark:` support):
-
-```tsx
-<ThemeToggle />
 ```
 
 ---
