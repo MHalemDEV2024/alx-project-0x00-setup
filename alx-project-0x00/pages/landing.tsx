@@ -11,10 +11,10 @@ const Landing: React.FC = () => {
 
       <div className="mt-6 space-y-4">
         <h2 className="text-xl font-semibold">Buttons</h2>
-        <div className="flex gap-4 flex-wrap">
-          <Button title="Small Rounded" className="text-sm rounded-sm" />
-          <Button title="Medium Rounded" className="text-base rounded-md" />
-          <Button title="Large Rounded" className="text-lg rounded-full px-6 py-3" />
+        <div className="flex flex-col items-center gap-4 mt-8">
+          <Button title="Small Rounded" styles="bg-blue-500 text-white px-4 py-2 text-sm rounded-sm" />
+          <Button title="Medium Rounded" styles="bg-green-500 text-white px-6 py-3 text-base rounded-md" />
+          <Button title="Large Rounded" styles="bg-purple-500 text-white px-8 py-4 text-lg rounded-full" />
         </div>
       </div>
     </div>
